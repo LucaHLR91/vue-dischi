@@ -3,3 +3,18 @@
 
 // IMPORT FONT MONTSERRAT
 @import '~@fontsource/montserrat/index.css';
+@import '~@fontsource/montserrat/700.css';
+
+// IMPORT VARS
+@import './Vars.scss';
+
+// GENERAL RULES
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $main-font;
+}
