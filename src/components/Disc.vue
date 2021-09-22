@@ -2,8 +2,8 @@
   <div class="disc text-center">
       <img class="img-fluid mb-3" :src="info.poster" :alt="info.title">
       <h3>{{info.title}}</h3>
-      <p>{{info.author}}</p>
-      <p>{{info.year}}</p>
+      <div class="text">{{info.author}}</div>
+      <div class="text">{{info.year}}</div>
   </div>
 </template>
 
@@ -20,6 +20,7 @@ export default {
         display: flex;
         flex-direction: column;
         background-color: $primary-color;
+        min-height: 450px;
 
         img {
             padding: 30px;
@@ -31,7 +32,7 @@ export default {
             color: $title-color;
         }
 
-        p {
+        .text {
             color: #77746B;
             font-size: 16px;
             font-weight: 700;

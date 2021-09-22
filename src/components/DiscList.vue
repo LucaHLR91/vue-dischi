@@ -2,7 +2,7 @@
     <main>
         <div class="container">
             <div class="row" v-if="!loading">
-                <div v-for="(disc, index) in discList" :key="index" class="col-6 col-md-4 col-lg-3 mb-5">
+                <div v-for="(disc, index) in discList" :key="index" class="col-6 col-md-4 col-lg-2 mb-5">
                     <Disc :info= disc />
                 </div>
             </div>
