@@ -13,22 +13,23 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    header {
-        width: 100%;
-        height: 70px;
-        background-color: #2E3A46;
+    @import '../style/Vars';
+        header {
+            width: 100%;
+            height: 70px;
+            background-color: $primary-color;
 
-        #logo {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 50px;
-            height: 100%;
-            margin-left: 20px;
+            #logo {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 50px;
+                height: 100%;
+                margin-left: 20px;
 
-            img {
-                width: 100%;
+                img {
+                    width: 100%;
+                }
             }
         }
-    }
 </style>
